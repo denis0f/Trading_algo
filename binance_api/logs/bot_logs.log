@@ -1,0 +1,45 @@
+2025-06-18 10:50:01,369 <-> INFO -> The websocket is now open.
+2025-06-18 11:04:03,076 <-> ERROR -> Websocket error: 
+Traceback (most recent call last):
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/site-packages/websocket/_app.py", line 511, in setSock
+    dispatcher.read(self.sock.sock, read, check)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/site-packages/websocket/_app.py", line 112, in read
+    if self.select(sock, sel):
+       ~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/site-packages/websocket/_app.py", line 126, in select
+    r = sel.select(self.ping_timeout)
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/selectors.py", line 452, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+2025-06-18 11:04:04,520 <-> INFO -> Websocket was closed. Code: None & Message: None
+2025-06-19 19:55:07,426 <-> INFO -> The websocket is now open.
+2025-06-19 19:56:41,441 <-> ERROR -> Websocket error: 
+Traceback (most recent call last):
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/site-packages/websocket/_app.py", line 511, in setSock
+    dispatcher.read(self.sock.sock, read, check)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/site-packages/websocket/_app.py", line 112, in read
+    if self.select(sock, sel):
+       ~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/site-packages/websocket/_app.py", line 126, in select
+    r = sel.select(self.ping_timeout)
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/selectors.py", line 452, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+2025-06-19 19:56:41,850 <-> INFO -> Websocket was closed. Code: None & Message: None
+2025-06-19 19:56:48,502 <-> INFO -> The websocket is now open.
+2025-06-19 19:57:11,836 <-> ERROR -> Websocket error: 
+Traceback (most recent call last):
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/site-packages/websocket/_app.py", line 511, in setSock
+    dispatcher.read(self.sock.sock, read, check)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/site-packages/websocket/_app.py", line 112, in read
+    if self.select(sock, sel):
+       ~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/site-packages/websocket/_app.py", line 126, in select
+    r = sel.select(self.ping_timeout)
+  File "/home/dengt/anaconda3/envs/venv/lib/python3.13/selectors.py", line 452, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+2025-06-19 19:57:12,287 <-> INFO -> Websocket was closed. Code: None & Message: None
